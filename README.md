@@ -26,10 +26,10 @@
 4. 3のインストールが終わったら`yo code`と入力
     - レポートについて聞かれるが好きなほうを選択
     - 作りたいプロジェクトについて聞かれるので、New Extension(TypeScript)を選択
-    - extension name,extension ID,extensionの説明を適宜入力
+    - extension name,extension identifier,extensionの説明を適宜入力
     - Gitに関してはお好みでどうぞ
 
-5. 4の作業が完了すると、ユーザーフォルダ直下に**extension name**で入力した名前のフォルダが作成されているので、VSCodeでこのディレクトリを開く
+5. 4の作業が完了すると、ユーザーフォルダ直下に**extension identifier**で入力した名前のフォルダが作成されているので、VSCodeでこのディレクトリを開く
 6. F5を押しデバッグすると、新しくウィンドウが作られるので**Ctrl+Shift+P**を押し`Hello World`と入力すると画面右下にトーストが出てくる。
 
 ![画像2](./img/debug.jpg)
