@@ -35,6 +35,7 @@
 ![画像2](./img/debug.jpg)
 
 ![画像3](./img/helloworld.jpg)
+VSCodeにてHello Worldの実行画面
 
 ## 自作する
 実際に動作するプログラムは拡張機能プロジェクトディレクトリの**src/extension.ts**を編集すれば良い<br>
