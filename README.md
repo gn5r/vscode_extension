@@ -45,4 +45,3 @@ VSCodeにてHello Worldの実行画面
 本リポジトリの**src**ディレクトリにextension.tsファイルを置いたのでこちらを参考にして頂ければと思う。<br>
 実装機能としては、VSCode上での現在のカーソル位置に日付を挿入するものとなる。<br>
 同じサンプルが別の方のGitHubにあるが、メソッドが違うので注意して頂きたい。<br>
-TextEditorをいじるには`vscode.command.registerTextEditorCommand()`を呼び出す必要がある。
