@@ -40,3 +40,9 @@ VSCodeにてHello Worldの実行画面
 ## 自作する
 実際に動作するプログラムは拡張機能プロジェクトディレクトリの**src/extension.ts**を編集すれば良い<br>
 また、作成した拡張機能を使うには、 **ユーザーフォルダ/.vscode/extensions** に[先ほど](#PJ)で作成したディレクトリ毎コピーすればよい
+
+## サンプルコードの紹介
+本リポジトリの**src**ディレクトリにextension.tsファイルを置いたのでこちらを参考にして頂ければと思う。<br>
+実装機能としては、VSCode上での現在のカーソル位置に日付を挿入するものとなる。<br>
+同じサンプルが別の方のGitHubにあるが、メソッドが違うので注意して頂きたい。<br>
+TextEditorをいじるには`vscode.command.registerTextEditorCommand()`を呼び出す必要がある。
