@@ -18,9 +18,6 @@
 3. YeomenとVSCode用のGeneratorをインストール
     - Node.jsターミナルにて`nmp install -g yo generator-code`と入力
 
-![画像1](./img/npm.jpg)
-2と3の実行画面
-
 <a name="PJ"></a>
 
 4. 3のインストールが終わったら`yo code`と入力
@@ -32,16 +29,6 @@
 5. 4の作業が完了すると、ユーザーフォルダ直下に**extension identifier**で入力した名前のフォルダが作成されているので、VSCodeでこのディレクトリを開く
 6. F5を押しデバッグすると、新しくウィンドウが作られるので**Ctrl+Shift+P**を押し`Hello World`と入力すると画面右下にトーストが出てくる。
 
-![画像2](./img/debug.jpg)
-
-![画像3](./img/helloworld.jpg)
-VSCodeにてHello Worldの実行画面
-
 ## 自作する
 実際に動作するプログラムは拡張機能プロジェクトディレクトリの**src/extension.ts**を編集すれば良い<br>
 また、作成した拡張機能を使うには、 **ユーザーフォルダ/.vscode/extensions** に[先ほど](#PJ)で作成したディレクトリ毎コピーすればよい
-
-## サンプルコードの紹介
-本リポジトリの**src**ディレクトリにextension.tsファイルを置いたのでこちらを参考にして頂ければと思う。<br>
-実装機能としては、VSCode上での現在のカーソル位置に日付を挿入するものとなる。<br>
-同じサンプルが別の方のGitHubにあるが、メソッドが違うので注意して頂きたい。<br>
